@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 400;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(#3cd4d4, #0f1db8); */
+}
+h1{
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+.css h2{
+    margin-top: 10px;
+    color: green;
+    font-style: italic;
+    font-size: 30px;
+}
+.css ol li{
+    line-height: 22px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 29px;
+}
+.span1{
+    background-color: yellow;
+}
+ol li:nth-last-child(1){
+    font-style: italic;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.head ul li{
+    margin-left: 29px;
+    line-height:22px;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: brown;
+}
+ul li:nth-last-child(1){
+    line-height: 20px;
+}
+.span2{
+    background-color: yellow;
+}
+.p1{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: brown;
+}
+.p2{
+    font-size: 12px;
+    margin-top: 16px;
+    color: brown;
+    margin-left: 15px;
+}
+.p3{
+    font-size: 18px;
+    margin-top: 20px;
+    color: brown;
+    margin-left: 15px;
+}
+a{
+    color: brown;
+    margin-left: 15px;
+    text-decoration: none;
+}
